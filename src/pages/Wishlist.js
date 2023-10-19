@@ -5,8 +5,6 @@ import ProductCardWishlist from '../components/ProductCardWishlist';
 import Container from '../components/Container';
 
 
-
-
 const Wishlist = () => {
   return (
     <>
