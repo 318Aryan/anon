@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import BreadCrumb from '../components/BreadCrumb';
 import Meta from '../components/Meta';
-import ReactStars from 'react-rating-stars-component';
+import ReactStars from 'react-stars';
 import ProductCard from '../components/ProductCard';
 import Color from '../components/Color';
 import Container from '../components/Container';

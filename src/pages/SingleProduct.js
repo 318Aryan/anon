@@ -2,7 +2,7 @@ import { React, useState } from 'react';
 import BreadCrumb from '../components/BreadCrumb';
 import Meta from '../components/Meta';
 import ProductCard from '../components/ProductCard';
-import ReactStars from 'react-rating-stars-component';
+import ReactStars from 'react-stars';
 import ReactImageZoom from 'react-image-zoom';
 import Color from '../components/Color';
 import { TbGitCompare } from 'react-icons/tb';
@@ -12,7 +12,7 @@ import Container from '../components/Container';
 
 const SingleProduct = () => {
   const props = {width: 400, height: 600, zoomWidth: 600, zoomHeight: 500, img: "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg", }
-  const [ orderedProduct, setorderedProduct ] = useState(true);
+  const [ orderedProduct ] = useState(true);
 
   const copyToClipboard = (text) => {
     var textField = document.createElement('textarea');
@@ -112,7 +112,7 @@ const SingleProduct = () => {
                       </div>       
                       <div className='d-flex gap-10 align-items-center my-2'>
                         <h3 className='product-heading'>Share</h3>
-                        <a href="javascript:void(0);" onClick={() => {copyToClipboard("https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg")}}>Click Here</a>
+                        <a href="/product/:id" onClick={() => {copyToClipboard("https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg")}}>Click Here</a>
                       </div>                
                     </div>
                   </div>

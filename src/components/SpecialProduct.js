@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactStars from 'react-rating-stars-component';
+import ReactStars from 'react-stars';
 import { Link } from 'react-router-dom';
 
 const SpecialProduct = () => {
