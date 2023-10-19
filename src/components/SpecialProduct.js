@@ -13,7 +13,7 @@ const SpecialProduct = () => {
               <div className='special-product-content'>
                 <h5 className="brand">Oneplus</h5>
                 <h6 className="title">Special Product for 24 hours Sale...</h6>
-                <ReactStars count={5} isHalf={true} size={24} value="4" edit={false}activeColor="#ffd700"/>
+                <ReactStars className='react-starts' count={5} isHalf={true} size={24} value="4" edit={false}activeColor="#ffd700"/>
                 <p className="price"><span className="red-p">$500</span> &nbsp;<strike>$900</strike></p>
                 <div className="discount-till d-flex align-items-center gap-10">
                   <p className='mb-0'>
