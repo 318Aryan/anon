@@ -19,7 +19,7 @@ const Home = () => {
                 <img src="images/main-banner-1.jpg" className="img-fluid rounded-3" alt="main banner" />
                 <div className="main-banner-content position-absolute">
                   <h4>SUPERCHARGED FOR PROS.</h4>
-                  <h5>Iphone 15 Pro</h5>
+                  <h5>iPhone 15 Plus</h5>
                   <p>At $999.99 or $49.99/mo.</p>
                   <Link className='button'>BUY NOW</Link>
                 </div>
