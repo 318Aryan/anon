@@ -18,7 +18,7 @@ const ProductCard = (props) => {
             <Link to='/product/:id' className="product-card position-relative">
                 <div className="wishlist-icon position-absolute">    
                     <button className='bg-transparent border-0'>
-                        <img src={wish} alt="" />
+                        <img src={addcart} alt="add-cart" />
                     </button>
                 </div>
                 <div className="product-image">
@@ -46,7 +46,7 @@ const ProductCard = (props) => {
                         </button>
                         
                         <button className='border-0 bg-transparent'>
-                        <img src={addcart} alt="cart" />
+                        <img src={wish} alt="wish" />
                         </button>
                     </div>
                 </div>
